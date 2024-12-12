@@ -22,7 +22,6 @@ body{
   .custom-checkbox .checkmark {
     width: 24px;
     height: 24px;
-    /*border: 2px solid #333;*/
     background-color: #f4f4f4;
     border-radius: 4px;
     display: flex;
@@ -34,7 +33,6 @@ body{
   }
   
   .custom-checkbox .checkmark::before {
-    /*content: "\2713";*/
     content: "\f00c"; /* Checkmark de Font Awesome */
 font-family: "Font Awesome 6 Free"; 
 font-weight: 900;
@@ -44,16 +42,12 @@ font-weight: 900;
   }
   
   .custom-checkbox input[type="checkbox"]:checked + .checkmark {
-    /*background-color: #333;
-    border-color: #333;*/
     background: linear-gradient(
         to right,
         #f64f59,
         #c471ed,
         #12c2e9
     );
-    /*border-color: #333;*/
-    /*transform: scale(1.1) rotateZ(360deg) rotateY(360deg);*/
   }
   
   .custom-checkbox input[type="checkbox"]:checked + .checkmark::before {
